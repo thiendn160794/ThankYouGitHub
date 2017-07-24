@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wigo Analystic</string>
+
+    <string name="hint_username">User name</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="forgot_password_description">Enter your email to reset your password</string>
+    <string name="email">Email</string>
+    <string name="send_me_new_password">Send me new Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="check_your_email_to_choose_new_password">Check your email, to choose new password</string>
+    <string name="no_user_was_found">No user was found. Reset your password?</string>
+    <string name="got_it">Got It</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:src="@drawable/wigo_background3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_318px_margin_top_logo"
+        android:layout_width="@dimen/_616px_width_logo"
+        android:layout_height="@dimen/_234px_height_logo" />
+    <ImageView
+        android:id="@+id/iv_ticket"
+        android:src="@drawable/circle_checked"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_width="83.3dp"
+        android:layout_height="83.3dp" />
+    <TextView
+        android:id="@+id/tv_check_email_description"
+        android:text="@string/check_your_email_to_choose_new_password"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/btn_got_it"
+        android:text="@string/got_it"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/_954px_width_username_textbox"
+        android:layout_height="@dimen/_144px_height_username_textbox"
+        android:background="@drawable/rounded_corner"/>
+</LinearLayout>

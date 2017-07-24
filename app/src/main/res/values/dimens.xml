@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_616px_width_logo">213.9dp</dimen>
+    <dimen name="_954px_width_username_textbox">331.25dp</dimen>
+    <dimen name="_144px_height_username_textbox">50dp</dimen>
+    <dimen name="_234px_height_logo">81.25dp</dimen>
+    <dimen name="_318px_margin_top_logo">110.4dp</dimen>
+    <dimen name="_40px_btn_login_martin_top">13.9dp</dimen>
+    <dimen name="_105px_txt_username_margin_top">36.5dp</dimen>
+    <dimen name="_160px_forget_password_description_margin_top">55.5dp</dimen>
+    <dimen name="_55px_padding_bottom">19.3dp</dimen>
+</resources>
