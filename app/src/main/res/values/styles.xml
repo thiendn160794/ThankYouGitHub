@@ -1,21 +1,20 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-    <!-- Base application theme. -->
-
-    <!-- Base application theme no toolbar. -->
+    <!-- Base application theme no toolbar. login, forgot password screen use it-->
     <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <!-- Base application theme no toolbar. -->
+
+    <!-- Base application theme home screen. -->
+    <style name="AppThemeHome" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBackgroundHome</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Base application theme home screen. -->
 
     <!-- Define 3 style with 3 font. Using style instead off typeFont help avoiding the annoying alert in xml-->
     <style name="SalesforceSans_Ligh_Style">
