@@ -28,7 +28,7 @@ public class LoginPresenter implements ILoginPresenter {
                     mLoginView.showNotValidUsernamePassword();
                     return;
                 }
-                //TODO: login with type and divice Id is hashcode.
+                //TODO: @thiendn login with type and divice Id is hashcode.
                 ApiUtils.getApiService().login(username, password, "2", "daotran123").enqueue(new Callback<Session>() {
                     @Override
                     public void onResponse(Call<Session> call, Response<Session> response) {

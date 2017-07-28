@@ -9,4 +9,13 @@
     <dimen name="_105px_txt_username_margin_top">36.5dp</dimen>
     <dimen name="_160px_forget_password_description_margin_top">55.5dp</dimen>
     <dimen name="_55px_padding_bottom">19.3dp</dimen>
+    <dimen name="_150px_height_item_contact_list">52dp</dimen>
+    <dimen name="_113px_circle_avatar_contact">39.2dp</dimen>
+    <dimen name="_70px_circle_avatar_contact_margin_left">24.3dp</dimen>
+    <dimen name="_65px_circle_avatar_contact_margin_right">22.5dp</dimen>
+    <dimen name="_80px_back_button_height">27.8dp</dimen>
+    <dimen name="_40px_back_button_width">13.9dp</dimen>
+    <dimen name="small_text_size">10sp</dimen>
+    <dimen name="medium_text_size">20sp</dimen>
+    <dimen name="add_button_margin_right">15dp</dimen>
 </resources>

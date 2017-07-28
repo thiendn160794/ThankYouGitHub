@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150px_height_item_contact_list">
+    <ImageView
+        android:id="@+id/iv_avatar_contact"
+        tool:src="@drawable/icon_40_2x"
+        android:layout_marginLeft="@dimen/_70px_circle_avatar_contact_margin_left"
+        android:layout_width="@dimen/_113px_circle_avatar_contact"
+        android:layout_height="@dimen/_113px_circle_avatar_contact"
+        android:layout_gravity="center_vertical"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_65px_circle_avatar_contact_margin_right">
+        <TextView
+            android:id="@+id/tv_name"
+            tool:text="Dang Nhat Thien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            style="@style/SalesforceSans_Bold_Style"/>
+        <TextView
+            android:id="@+id/tv_job_title"
+            tool:text="Software Engineer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_centerVertical="true"
+            style="@style/SalesforceSans_Ligh_Style"
+            android:textSize="@dimen/small_text_size"/>
+    </RelativeLayout>
+</LinearLayout>

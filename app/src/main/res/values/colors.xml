@@ -10,5 +10,7 @@
 
     <color name="colorTextInTabLayout">#797979</color>
     <color name="colorDivider">#c2c2c2</color>
+
+    <color name="colorBackgroundSearchContacts">#b7b7b7</color>
 </resources>
 

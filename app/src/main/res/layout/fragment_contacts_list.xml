@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@android:color/black">
+
+        <ImageView
+            android:id="@+id/iv_back_button"
+            android:layout_width="@dimen/_40px_back_button_width"
+            android:layout_height="@dimen/_80px_back_button_height"
+            android:layout_gravity="center_vertical|left"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            style="@style/SalesforceSans_Bold_Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Contacts"
+            android:textSize="@dimen/medium_text_size" />
+
+        <ImageView
+            android:id="@+id/iv_add_button"
+            android:layout_width="@dimen/_40px_back_button_width"
+            android:layout_height="@dimen/_40px_back_button_width"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/add_button_margin_right"
+            android:src="@drawable/icon_add" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorBackgroundSearchContacts">
+        </View>
+        <EditText
+            android:background="@drawable/rounded_corner_white_color"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            style="@style/SalesforceSans_Regular_Style"
+            tool:text="Search"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -11,10 +11,6 @@ public class ApiUtils {
     private static final String BASE_URL = "https://wigo.tech/";
     private static final String WEB_SERVICE_NATIVE_URL = "webservicenative/";
 
-    public static WebServiceNative getWebServiceNative() {
-        return RetrofitClient.getClient(BASE_URL + WEB_SERVICE_NATIVE_URL).create(WebServiceNative.class);
-    }
-
     public static ApiService getApiService(){
         return RetrofitClient.getClient(BASE_URL).create(ApiService.class);
     }

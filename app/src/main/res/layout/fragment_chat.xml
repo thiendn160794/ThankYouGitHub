@@ -5,18 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <android.support.v7.widget.Toolbar
-        android:title="Chat Fragment"
         android:id="@+id/toolbar_home"
         android:minHeight="?attr/actionBarSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:titleTextColor="@android:color/black"
-        android:background="?attr/colorPrimary"/>
+        android:background="?attr/colorPrimary"
+        android:visibility="gone"/>
 
     <View
         android:id="@+id/divider_bellow_toolbar"
         android:background="@color/colorDivider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_below="@id/toolbar_home" />
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/frame_layout_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
 </LinearLayout>

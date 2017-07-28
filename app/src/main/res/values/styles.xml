@@ -22,6 +22,7 @@
     </style>
     <style name="SalesforceSans_Bold_Style">
         <item name="fontPath">fonts/SalesforceSans-Bold.ttf</item>
+        <item name="android:textColor">@android:color/black</item>
     </style>
     <style name="SalesforceSans_Regular_Style">
         <item name="fontPath">fonts/SalesforceSans-Regular.ttf</item>
